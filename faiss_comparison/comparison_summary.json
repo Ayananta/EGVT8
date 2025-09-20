@@ -1,0 +1,29 @@
+{
+  "flat": {
+    "index_type": "flat",
+    "num_vectors": 273,
+    "dimension": 3515,
+    "build_time": 0.0,
+    "avg_search_time": 0.002417135238647461,
+    "description": "Exact search, most accurate but slower",
+    "use_case": "Small datasets, exact similarity needed"
+  },
+  "ivf": {
+    "index_type": "ivf",
+    "num_vectors": 273,
+    "dimension": 3515,
+    "build_time": 0.03549075126647949,
+    "avg_search_time": 0.00040183067321777346,
+    "description": "Inverted file index, faster approximate search",
+    "use_case": "Medium to large datasets, good speed/accuracy balance"
+  },
+  "hnsw": {
+    "index_type": "hnsw",
+    "num_vectors": 273,
+    "dimension": 3515,
+    "build_time": 0.020367145538330078,
+    "avg_search_time": 0.0005494594573974609,
+    "description": "Hierarchical navigable small world",
+    "use_case": "Large datasets, fast approximate search"
+  }
+}

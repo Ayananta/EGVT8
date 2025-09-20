@@ -1,0 +1,9 @@
+{
+  "index_type": "ivf",
+  "num_vectors": 273,
+  "dimension": 3515,
+  "build_time": 0.03549075126647949,
+  "avg_search_time": 0.00040183067321777346,
+  "description": "Inverted file index, faster approximate search",
+  "use_case": "Medium to large datasets, good speed/accuracy balance"
+}

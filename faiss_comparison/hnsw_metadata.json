@@ -1,0 +1,9 @@
+{
+  "index_type": "hnsw",
+  "num_vectors": 273,
+  "dimension": 3515,
+  "build_time": 0.020367145538330078,
+  "avg_search_time": 0.0005494594573974609,
+  "description": "Hierarchical navigable small world",
+  "use_case": "Large datasets, fast approximate search"
+}

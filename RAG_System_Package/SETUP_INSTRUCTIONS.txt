@@ -1,0 +1,59 @@
+# RAG System Setup Instructions
+
+## Quick Start (3 steps):
+
+### 1. Install Python Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Get Gemini API Key
+- Go to: https://makersuite.google.com/app/apikey
+- Sign in with Google account
+- Click "Create API Key"
+- Copy the generated key
+
+### 3. Configure API Key
+```bash
+python setup_gemini.py
+```
+Choose option 1 and paste your API key when prompted.
+
+## Usage Examples:
+
+### Ask Questions:
+```bash
+python gemini_rag.py --question "What is this legal case about?"
+```
+
+### Interactive Chat:
+```bash
+python gemini_rag.py --chat
+```
+
+### Vector Search (no AI needed):
+```bash
+python faiss_search.py --query "apartment ownership"
+```
+
+### View Statistics:
+```bash
+python faiss_search.py --stats
+```
+
+## What's Included:
+- ✅ Pre-processed legal document (273 chunks)
+- ✅ Vector embeddings (3,515 dimensions)
+- ✅ FAISS database (optimized for fast search)
+- ✅ Gemini AI integration
+- ✅ Complete RAG system
+
+## System Requirements:
+- Python 3.8+
+- Internet connection (for Gemini AI)
+- ~20MB disk space
+
+## Troubleshooting:
+- If API key issues: Run `python setup_gemini.py`
+- If import errors: Run `pip install -r requirements.txt`
+- For help: Check the README.md file

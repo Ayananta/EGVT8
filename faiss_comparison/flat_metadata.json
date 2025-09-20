@@ -1,0 +1,9 @@
+{
+  "index_type": "flat",
+  "num_vectors": 273,
+  "dimension": 3515,
+  "build_time": 0.0,
+  "avg_search_time": 0.002417135238647461,
+  "description": "Exact search, most accurate but slower",
+  "use_case": "Small datasets, exact similarity needed"
+}
